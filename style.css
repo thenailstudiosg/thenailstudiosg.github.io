@@ -86,7 +86,7 @@ body
 {
     margin-right: 5px;
 }
-@media only screen and (max-width: 980px)
+ @media screen and (min-width: 600px) 
 {
     .top-nav-bar
     {
@@ -172,7 +172,7 @@ body
     display: none;
 }
 
-@media only screen and (max-width: 980px)
+ @media screen and (min-width: 600px) 
 {
     .side-menu
     {
@@ -213,7 +213,7 @@ body
 {
     z-index: 1 !important;
 }
-@media only screen and (max-width: 980px)
+ @media screen and (min-width: 600px) 
 {
     .slider
     {
@@ -643,7 +643,7 @@ body
 
 
 
-@media only screen and (max-width: 980px)
+ @media screen and (min-width: 600px) 
 {
 
     .shop-item-image
