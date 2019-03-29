@@ -24,8 +24,18 @@ body
     height: 40px;
     margin: 5px 10px;
 }
-
-
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid pink !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+    
+}
 .input-group-text
 {
     background: white !important;
@@ -203,7 +213,7 @@ body
 {
     z-index: 1 !important;
 }
-@media only screen and (min-width: 600px)
+@media only screen and (max-width: 980px)
 {
     .slider
     {
@@ -236,7 +246,6 @@ body
 {
     transform: scale(1.1);
 }
-
 
 /*---------------On Sale product CSS----------------*/
 
@@ -994,5 +1003,3 @@ body
 .parallax--box {
     transition: initial;
 }
-
-
